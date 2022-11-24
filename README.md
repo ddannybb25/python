@@ -12,7 +12,8 @@
 https://celltong.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-pandas-groupby-%ED%95%A8%EC%88%98%EB%A1%9C-%EA%B7%B8%EB%A3%B9%EC%9C%BC%EB%A1%9C-%EB%AC%B6%EA%B8%B0
 
 - [ ]  merge (n232)
-
+- [ ]  df.query에서 groupby, get_groupby (n232a)
+- [ ]  수업시간 코딩 파일 (특히 merge index부분 잘보기)
 ----
 >TIL
 

@@ -16,6 +16,8 @@ https://celltong.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-pandas-groupby-%E
 - [ ]  수업시간 코딩 파일 (특히 merge index부분 잘보기), 파일명 학습 n232code
 - [ ]  concat 
 - [ ]  str,~
+- [ ]  정규표현식
+
 ----
 >TIL
 
@@ -83,3 +85,31 @@ base_result=s[~s.question.str.startswith('challenge')]
 base_correct=base_result.groupby('id').all()['is_correct']
 
 ```
+
+22.11.28
+
+학습 n232 code 파일 복습
+
+어느정도 학습이 된 것 같으니
+
+내일은 정규표현식 공부하기
+
+```
+base_result = s[~s.question.str.startswith('challenge')] 
+base_result.reset_index(inplace=True)
+base_correct = base_result.groupby('id').all()['is_correct']
+base_correct
+
+```
+
+
+
+
+
+
+
+
+
+
+
+

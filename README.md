@@ -18,7 +18,7 @@ https://celltong.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-pandas-groupby-%E
 - [ ]  str,~
 - [ ]  정규표현식
 - [ ]  ZIP N234 
-
+- [ ] 
 ```
 pdp = pdp.rename(columns=dict(zip(category_codes, category_names)))
 ```
@@ -107,9 +107,25 @@ base_correct
 
 ```
 
+22.11.29
 
+zip 
 
+n234 zip 
 
+https://www.daleseo.com/python-zip/
+
+```
+pdp = pdp.rename(columns=dict(zip(category_codes, category_names)))
+
+```
+
+```
+shaps = pd.Series(shap_values[0], zip(feature_names, feature_values))
+
+```
+
+오늘 스챌있으니깐 대략적인 개념 파악하고 다시 복습하기
 
 
 

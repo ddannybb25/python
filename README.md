@@ -17,6 +17,11 @@ https://celltong.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-pandas-groupby-%E
 - [ ]  concat 
 - [ ]  str,~
 - [ ]  정규표현식
+- [ ]  ZIP N234 
+
+```
+pdp = pdp.rename(columns=dict(zip(category_codes, category_names)))
+```
 
 ----
 >TIL

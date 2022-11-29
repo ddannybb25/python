@@ -26,15 +26,17 @@ pdp = pdp.rename(columns=dict(zip(category_codes, category_names)))
 ----
 >TIL
 
-22.11.24 apply,lambda 
+
+[22.11.24 apply,lambda ]
 
 apply,lambda에 대한 공부를 하였고 블로그 정리 완료
 
 https://tadadata.tistory.com/5
 
-22.11.25 파일명[학습 n232 code] 복습
 
-TIL : loc,iloc,인덱스리셋,apply lambda
+[22.11.25 파일명[학습 n232 code] 복습]
+
+**TIL : loc,iloc,인덱스리셋,apply lambda**
 
 더 공부하고 싶은 부분 : ~(제외시키는 것),str, all,concat
 
@@ -91,7 +93,7 @@ base_correct=base_result.groupby('id').all()['is_correct']
 
 ```
 
-22.11.28
+[22.11.28]
 
 학습 n232 code 파일 복습
 
@@ -107,9 +109,9 @@ base_correct
 
 ```
 
-22.11.29
+[22.11.29]
 
-zip 
+TIL) **zip** 
 
 n234 zip 
 
@@ -126,6 +128,22 @@ shaps = pd.Series(shap_values[0], zip(feature_names, feature_values))
 ```
 
 오늘 스챌있으니깐 대략적인 개념 파악하고 다시 복습하기
+
+
+[22.11.30]
+
+TIL) **df.dropna**
+
+6시 기상, 공부시작 ~ 7시 20분 
+
+어제 스챌 때 feature engineering에 막혀서 
+
+결측치 제거 df.dropna 공부 및 정리 
+
+https://tadadata.tistory.com/6 블로그 정리완료 
+
+오늘부터 프로젝트여서 아침공부를 할 수 있을 지는 모르겠지만 플젝 기록이라도 해두기 
+
 
 
 

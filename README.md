@@ -18,7 +18,7 @@ https://celltong.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-pandas-groupby-%E
 - [ ]  str,~
 - [ ]  정규표현식
 - [ ]  ZIP N234 
-- [ ]  feature engineering -> 이거 꼭!! 안그러면 계속 막힐 것 
+- [ ]  feature engineering -> 이거 꼭!! 안그러면 계속 막힐 것(n213부터 나옴)
 ```
 pdp = pdp.rename(columns=dict(zip(category_codes, category_names)))
 ```
